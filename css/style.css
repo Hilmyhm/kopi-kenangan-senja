@@ -69,6 +69,11 @@ body {
   transform: scaleX(0.5);
 }
 
+.navbar .navbar-extra {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .navbar .navbar-extra a {
   color: #fff;
   margin: 0 0.5rem;

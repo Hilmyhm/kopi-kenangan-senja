@@ -1,6 +1,7 @@
 const navbar = document.querySelector(".navbar-nav");
 const menu = document.querySelector("#humberger-menu");
 
+
 // toggle kelas active
 menu.onclick = (e) => {
   e.preventDefault();
@@ -12,3 +13,9 @@ document.onclick = (Event) => {
   if (!navbar.contains(Event.target) && !menu.contains(Event.target))
     navbar.classList.remove("active");
 };
+
+search.onclick = (e) => {
+    e.preventDefault();
+    input_search.classList.toggle("active");
+}
+
